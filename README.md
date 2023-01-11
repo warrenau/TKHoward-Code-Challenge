@@ -21,7 +21,7 @@ where $x=N/a$, $y=N/b$, and $z=N/(ab)$.
 
 ---
 ## The Code:
-The script to solve this problem begins by defining a function that can calculate the sum of multiples for any two numbers and any maximum. The function first determines the number of multiples for each input using the `numpy.floor` function. Then, the function performs the summation described above. The variables are defined so the problem statement would read: *Find the sum of all the multiples of $a$ or $b$ below $n$*.
+The script to solve this problem begins by defining a function that can calculate the sum of multiples for any two numbers and any maximum. The function first determines the number of multiples for each input using the `numpy.floor` function. Then, the function performs the summation described above. The variables are defined so the problem statement would read: *Find the sum of all the multiples of* $a$ *or* $b$ *below* $n$.
 
 ```python
 sum_n = sum_multiple_multiples(a,b,n)
