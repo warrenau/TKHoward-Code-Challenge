@@ -2,6 +2,7 @@
 # Austin Warren
 # January 2023
 
+# packages
 import numpy as np
 
 # function to add multiples of a or b less than n (includes n)
@@ -15,10 +16,6 @@ def sum_multiple_multiples(a,b,n):
     return sum
 
 
-# test with 10:
-sum_10 = sum_multiple_multiples(3,5,9)
-print(sum_10)
-
-# now for 1000:
+# calculate
 sum_1000 = sum_multiple_multiples(3,5,999)
 print(sum_1000)
