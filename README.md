@@ -12,11 +12,11 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 
 The sum of the multiples of any number, $a$, less than another number, $N$ can be determined mathematically. The multiples can be determined by dividing $N$ by $a$ and multiply all integers between 1 and the result by $a$. So, the sum of the multiples becomes $a$ multipled by the sum of the integers up to and including the number of multiples. The sum of all numbers up to a number, $n$, can be expressed as:
-$$ \frac{n(n+1)}{2}. $$
+$$\frac{n(n+1)}{2}.$$
 Using this method, the sum of the multiples of $a$ can be written as:
-$$ a \frac{x(x+1)}{2}, $$
+$$a \frac{x(x+1)}{2},$$
 where $x=N/a$. The summation of the multiples of two different numbers, $a$ and $b$, is then quite easy; you just perform this calculation twice. However, summing the multipes of $a$ or $b$ together runs into an issue when a number is a multiple of both and is counted for each calculation. We can fix this issue by subtracting the sum of the multiples of $a*b$. The final solution can be seen below:
-$$ \frac{1}{2} [ax(x+1) + by(y+1) - abz(z+1)], $$
+$$\frac{1}{2} [ax(x+1) + by(y+1) - abz(z+1)],$$
 where $x=N/a$, $y=N/b$, and $z=N/(ab)$.
 
 ---
